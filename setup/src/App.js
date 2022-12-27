@@ -1,7 +1,17 @@
 import React from 'react';
 import Review from './Review';
+import { FaGithubSquare } from 'react-icons/fa';
+
 function App() {
-  return <h2>reviews project setup video en 1:14</h2>;
-}
+  return <main>
+    <div className = 'container'>
+    <div className='title'>
+<h2>our reveiews</h2>
+<div className='underline'></div>
+    </div>
+    <Review />
+    </div>
+    </main>
+    }
 
 export default App;
